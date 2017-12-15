@@ -1,11 +1,14 @@
 /* CSS Document */
-
+body {
+	background-image: url("train.jpg");
+}
+	
 /* Calculator Box */
 .box {
 	background-color: #e5e7ea;
 	height: 300px;
 	width: 250px;
-	border-radius: 10px;
+	border-radius: 20px;
 	position: relative;
 	top: 80px;
 	left: 40%;
@@ -48,7 +51,7 @@
 }
 .button.function {
 	color: white;
-	background-color: #c64f81;
+	background-color: #4d5966;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
@@ -57,7 +60,7 @@
 	background-color: #4d5966;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
-}
+	}
 .button.number {
 	color: white;
 	background-color: #7091ab;
