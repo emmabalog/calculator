@@ -1,6 +1,6 @@
 /* CSS Document */
 body {
-	background-image: url("train.jpg");
+	background-image: url("starwars.png");
 }
 	
 /* Calculator Box */
@@ -48,24 +48,28 @@ body {
 	margin-left: 17px;
 	cursor: pointer;
 	border-top: 2px solid transparent;
+	
 }
 .button.function {
 	color: white;
 	background-color: #4d5966;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
+	background-image: url("luke.jpg")
 }
 .button.operator {
 	color: white;
 	background-color: #4d5966;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
+	background-image: url("r2d2c3po.jpg")
 	}
 .button.number {
 	color: white;
 	background-color: #7091ab;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
+	background-image: url("darthvader.jpg")
 }
 
 /* Simulate Button Press */
